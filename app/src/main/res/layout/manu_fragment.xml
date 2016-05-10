@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/overview"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:text="SELECT"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+            android:text="MANUAL"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+
+    tools:context="com.cashcow.rajesh.cashcow.LoginActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emiail"
+        android:layout_marginBottom="234dp"
+        android:hint="Enter Email ID"
+            android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No."
+        android:id="@+id/number"
+        android:padding="10dp"
+        android:background="@drawable/text"
+        android:layout_marginTop="55dp"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/emiail"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="SUBMIT"
+        android:id="@+id/submitlogin"
+        android:background="@drawable/button"
+        android:layout_below="@+id/number"
+        android:layout_marginTop="59dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:singleLine="false" />
+</RelativeLayout>
